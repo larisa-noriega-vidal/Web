@@ -1,19 +1,22 @@
 h1 {
-    color: blue;
-    background-color: aqua;
+    color: black;
+    background-color: rgb(255, 177, 149);
     text-align: center;
     text-transform: uppercase;
 }
 .areaBonita {
     border: 1px;
-    border-radius: 10%;
-    background-color: #d4d9e0 ;
-    color: #454a4f ;
-    height: 50px;
-    width: 450px;
+    border-radius: 5%;
+    background-color: rgb(255, 177, 149);
+    color: black ;
+    height: 30px;
+    width: 350px;
     font-size:20px;
 
 }
 label {
     padding-right: 10px;
+}
+body {
+    background-color: bisque;
 }

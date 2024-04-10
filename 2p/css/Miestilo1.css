@@ -51,6 +51,47 @@ body {
     gap: 3px;
 }
 
-.container form .fields
+.container form .fields .input-field {
+    flex-basis: calc(34.34% - 23px);
+    margin-bottom: 23px;
+}
+
+.input-field {
+    display: flex;
+    flex-direction: column;
+}
+
+.input-field input,
+.input-field select,
+.input-field textarea {
+    border: 2px solid #f3ebeb;
+    padding: 12px;
+    width: 104%;
+    box-sizing: border-box;
+    background-color: #2cbbfd;
+    color: azure;
+    margin-bottom: 12px;
+    /*espco infror entr elmnts */
+}
+
+/* estlos especific pra textarea */
+#affiliations
+#biography
+#commets {
+    resize: none;
+    width: 103%;
+    height: 153px;
+    padding: 12px;
+    border-radius: 7px;
+    border: 2px solid #f3ebeb;
+    box-sizing: border-box;
+    background-color: #2cbbfd;
+    color: azure;
+    display: block;
+    margin-top: 23px;
+}
+
+
+
 
 

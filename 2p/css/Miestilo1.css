@@ -25,11 +25,11 @@ body {
 
 .container header {
     font-size: 26px;
-    font-weight: 650 ;
+    font-weight: 65 ;
     color: #1d1d1d;
-    margin-bottom: 22px;
+    margin-bottom: 20px;
     color: azure;
-    padding: 52px;
+    padding: 40px;
 }
 
 .container form {

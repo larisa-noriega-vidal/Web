@@ -1,14 +1,17 @@
 .facebook {
     font-weight: bold;
-    font-size: 3.5em;
+    font-size: 5.1em;
     font-family: "Poppins", sans-serif;
     color: #1877f2;
+    text-align: left;
 }
 
 .text-description {
     font-weight: normal;
-    font-size: 1.4em;
+    font-size: 1.9em;
     font-family: "Poppins", sans-serif;
+    text-align:left;
+    margin-right: 95px;
 }
 
 .bg-gray {
@@ -27,4 +30,12 @@ input::placeholder {
     color: rgb(190, 186, 186) !important;
     font-size: 0.8em;
 
+}
+
+.btn-h-primary:hover {
+    background-color: #096ae8 !important;
+}
+
+.btn-h-success:hover {
+    background-color: #309f1a !important;
 }

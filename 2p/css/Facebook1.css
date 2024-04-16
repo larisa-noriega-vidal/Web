@@ -14,3 +14,17 @@
 .bg-gray {
     background-color: #f0f2f5;
 }
+
+.btn-primary {
+    background-color: #1877f2 !important;
+}
+
+.btn-success {
+    background-color: #42b72a !important;
+}
+
+input::placeholder {
+    color: rgb(190, 186, 186) !important;
+    font-size: 0.8em;
+
+}

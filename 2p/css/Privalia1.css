@@ -11,3 +11,8 @@ p {
 .mt-auto {
     font-size: 30px;
 }
+
+a .nav-link {
+    color: black;
+}
+

@@ -1,3 +1,10 @@
-.hr {
-    background-color: blueviolet;
+body {
+    background-color: #494e86;
+    color: #dcddde;
+    font-family: Whitney, "Helvetica Neue", Helvetica, Arial, sans-serif;
+    font-size: 16px;
+    line-height: 1.5;
+    margin: 0;
+    padding: 0;
+   
 }

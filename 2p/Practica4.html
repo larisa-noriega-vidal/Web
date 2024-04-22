@@ -3,6 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/Miestilo4.css">
     <title>Document</title>
 </head>
 <body>
@@ -18,6 +19,15 @@
                             <label>*Order date</label>
                             <input type="date" placeholder="2/4/2016" required>
                         </div>
+
+                        <div class="fields">
+                            <div class="input-field">
+                                <label>*Order Status</label>
+                                <input type="text" placeholder="Invoice" required>
+                            </div>
+                        </div>
+
+
 
                         <div class="input-field">
                             <label>Costumer purchase order reference</label>
@@ -70,7 +80,35 @@
                         <label>Delivery address</label>
                         <input type="text" placeholder="123 Gray Red" required>
 
-                        <div ></div>
+                        <div class="input-field">
+                            <label></label>
+                            <input type="text" placeholder="APT 723" required>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="fields">
+                    <div class="input-field">
+                        <label>City</label>
+                        <input type="text" placeholder="Colorado" required>
+                    </div>
+
+                    <div class="input-field">
+                        <label>State</label>
+                        <input type="text" placeholder="CO" required>
+                    </div>
+
+                    <div class="input-field">
+                        <label>Postal code</label>
+                        <input type="text" placeholder="80001" required>
+                    </div>
+
+                    <div class="input-field">
+                        <label>Country/region</label>
+                        <select id="Country/region" name="Country/region">
+                            <option>USA</option>
+                            <option>France</option>
+                        </select>
                     </div>
                 </div>
             </div>

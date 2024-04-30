@@ -36,12 +36,14 @@
 .ttx{
     margin-left: 40%;
 }
-.container{
-    background-color: white;
 
-}
 .container .container{
     background-color: #784ad3;
     width: 95%;
     height: 50%;
+}
+
+body{
+    background-color: #784ad3;
+    margin-top: 30px;
 }
